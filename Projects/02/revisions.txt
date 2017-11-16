@@ -1,0 +1,11 @@
+commit 60542a8165ea01e7d281748d433989b9864816cd
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Sun Nov 12 04:16:33 2017 -0500
+
+    Implement hash table
+
+commit 57f44fdb3c9d7a4f59234168cbe5b1d77fba4364
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Fri Nov 10 20:39:25 2017 -0500
+
+    Initial commit

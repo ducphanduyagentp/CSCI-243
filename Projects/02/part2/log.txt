@@ -1,0 +1,206 @@
+ddp3945@berry:~/Courses/csci243/Projects/02/part2$ valgrind --leak-check=full --track-origins=yes ./jukebox ../tracks_1.txt 
+==10041== Memcheck, a memory error detector
+==10041== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==10041== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==10041== Command: ./jukebox ../tracks_1.txt
+==10041== 
+Jukebox statistics
+==================
+Number of songs in jukebox: 1
+Number of simulations run: 10000
+Total number of songs played: 20000
+Average number of plays to get duplicate: 2
+Most played song: Silent Night by Faster Pussy cat, 20000 times.
+Least played song: Silent Night by Faster Pussy cat, 20000 times.
+==10041== 
+==10041== HEAP SUMMARY:
+==10041==     in use at exit: 0 bytes in 0 blocks
+==10041==   total heap usage: 30,011 allocs, 30,011 frees, 2,213,411 bytes allocated
+==10041== 
+==10041== All heap blocks were freed -- no leaks are possible
+==10041== 
+==10041== For counts of detected and suppressed errors, rerun with: -v
+==10041== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+ddp3945@berry:~/Courses/csci243/Projects/02/part2$ valgrind --leak-check=full --track-origins=yes ./jukebox ../tracks_10.txt 
+==10047== Memcheck, a memory error detector
+==10047== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==10047== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==10047== Command: ./jukebox ../tracks_10.txt
+==10047== 
+Jukebox statistics
+==================
+Number of songs in jukebox: 10
+Number of simulations run: 10000
+Total number of songs played: 46611
+Average number of plays to get duplicate: 4
+Most played song: Si Vos Querés by Yerba Brava, 4752 times.
+Least played song: Mama_ mama can't you see ? by The Sun Harbor's Chorus-Documentary Recordings, 4584 times.
+==10047== 
+==10047== HEAP SUMMARY:
+==10047==     in use at exit: 0 bytes in 0 blocks
+==10047==   total heap usage: 56,658 allocs, 56,658 frees, 2,639,904 bytes allocated
+==10047== 
+==10047== All heap blocks were freed -- no leaks are possible
+==10047== 
+==10047== For counts of detected and suppressed errors, rerun with: -v
+==10047== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+ddp3945@berry:~/Courses/csci243/Projects/02/part2$ valgrind --leak-check=full --track-origins=yes ./jukebox ../tracks_100.txt 
+==10048== Memcheck, a memory error detector
+==10048== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==10048== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==10048== Command: ./jukebox ../tracks_100.txt
+==10048== 
+Jukebox statistics
+==================
+Number of songs in jukebox: 100
+Number of simulations run: 10000
+Total number of songs played: 132663
+Average number of plays to get duplicate: 13
+Most played song: Goodbye by Joseph Locke, 1417 times.
+Least played song: Le mauvais coton by Brigitte Fontaine, 1238 times.
+==10048== 
+==10048== HEAP SUMMARY:
+==10048==     in use at exit: 0 bytes in 0 blocks
+==10048==   total heap usage: 210,241 allocs, 210,241 frees, 6,351,473 bytes allocated
+==10048== 
+==10048== All heap blocks were freed -- no leaks are possible
+==10048== 
+==10048== For counts of detected and suppressed errors, rerun with: -v
+==10048== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+ddp3945@berry:~/Courses/csci243/Projects/02/part2$ valgrind --leak-check=full --track-origins=yes ./jukebox ../tracks_1K.txt 
+==10049== Memcheck, a memory error detector
+==10049== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==10049== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==10049== Command: ./jukebox ../tracks_1K.txt
+==10049== 
+Jukebox statistics
+==================
+Number of songs in jukebox: 1000
+Number of simulations run: 10000
+Total number of songs played: 402248
+Average number of plays to get duplicate: 40
+Most played song: Eye Spy by The Race, 480 times.
+Least played song: Vete De Aquí by Merche, 341 times.
+==10049== 
+==10049== HEAP SUMMARY:
+==10049==     in use at exit: 0 bytes in 0 blocks
+==10049==   total heap usage: 880,131 allocs, 880,131 frees, 24,983,869 bytes allocated
+==10049== 
+==10049== All heap blocks were freed -- no leaks are possible
+==10049== 
+==10049== For counts of detected and suppressed errors, rerun with: -v
+==10049== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+ddp3945@berry:~/Courses/csci243/Projects/02/part2$ valgrind --leak-check=full --track-origins=yes ./jukebox ../tracks_10K.txt 
+==10052== Memcheck, a memory error detector
+==10052== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==10052== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==10052== Command: ./jukebox ../tracks_10K.txt
+==10052== 
+Jukebox statistics
+==================
+Number of songs in jukebox: 9990
+Number of simulations run: 10000
+Total number of songs played: 1270068
+Average number of plays to get duplicate: 127
+Most played song: Déshabillez-Moi by Juliette Gréco, 175 times.
+Least played song: Turnabout of a City by Gak Sato, 86 times.
+==10052== 
+==10052== HEAP SUMMARY:
+==10052==     in use at exit: 0 bytes in 0 blocks
+==10052==   total heap usage: 3,063,451 allocs, 3,063,451 frees, 86,682,933 bytes allocated
+==10052== 
+==10052== All heap blocks were freed -- no leaks are possible
+==10052== 
+==10052== For counts of detected and suppressed errors, rerun with: -v
+==10052== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+ddp3945@berry:~/Courses/csci243/Projects/02/part2$ valgrind --leak-check=full --track-origins=yes ./jukebox ../tracks_100K.txt 
+==10055== Memcheck, a memory error detector
+==10055== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==10055== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==10055== Command: ./jukebox ../tracks_100K.txt
+==10055== 
+Jukebox statistics
+==================
+Number of songs in jukebox: 98853
+Number of simulations run: 10000
+Total number of songs played: 3920963
+Average number of plays to get duplicate: 392
+Most played song: Chasing The Bullet by Mark Isham, 67 times.
+Least played song: De que se rien? by Fabiana Cantilo, 16 times.
+==10055== 
+==10055== HEAP SUMMARY:
+==10055==     in use at exit: 0 bytes in 0 blocks
+==10055==   total heap usage: 10,084,395 allocs, 10,084,395 frees, 284,870,393 bytes allocated
+==10055== 
+==10055== All heap blocks were freed -- no leaks are possible
+==10055== 
+==10055== For counts of detected and suppressed errors, rerun with: -v
+==10055== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+ddp3945@berry:~/Courses/csci243/Projects/02/part2$ valgrind --leak-check=full --track-origins=yes ./jukebox ../tracks_1M.txt 
+==10065== Memcheck, a memory error detector
+==10065== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==10065== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==10065== Command: ./jukebox ../tracks_1M.txt
+==10065== 
+Jukebox statistics
+==================
+Number of songs in jukebox: 926079
+Number of simulations run: 10000
+Total number of songs played: 12051349
+Average number of plays to get duplicate: 1205
+Most played song: Second To Last (Previously Unreleased - Demo Version) by A New Found Glory, 35 times.
+Least played song: First Kill (feat. Beau Jestice) by Access to Arasaka, 0 times.
+==10065== 
+==10065== HEAP SUMMARY:
+==10065==     in use at exit: 0 bytes in 0 blocks
+==10065==   total heap usage: 34,893,551 allocs, 34,893,551 frees, 970,235,394 bytes allocated
+==10065== 
+==10065== All heap blocks were freed -- no leaks are possible
+==10065== 
+==10065== For counts of detected and suppressed errors, rerun with: -v
+==10065== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+ddp3945@berry:~/Courses/csci243/Projects/02/part2$ 
+
+1== Command: ./jukebox ../tracks_100K.txt
+==10611== 
+Jukebox statistics
+==================
+Number of songs in jukebox: 98853
+Number of simulations run: 10000
+Total number of songs played: 3942748
+Average number of plays to get duplicate: 394
+Most played song: Bubwah by Wailing Souls, 69 times.
+Least played song: Young World (LP Version) by James Darren, 14 times.
+==10611== 
+==10611== HEAP SUMMARY:
+==10611==     in use at exit: 0 bytes in 0 blocks
+==10611==   total heap usage: 10,140,105 allocs, 10,140,105 frees, 286,483,209 bytes allocated
+==10611== 
+==10611== All heap blocks were freed -- no leaks are possible
+==10611== 
+==10611== For counts of detected and suppressed errors, rerun with: -v
+==10611== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+ddp3945@berry:~/Courses/csci243/Projects/02/part2$ valgrind --leak-check=full --track-origins=yes ./jukebox ../tracks_1M.txt 
+==10835== Memcheck, a memory error detector
+==10835== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==10835== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==10835== Command: ./jukebox ../tracks_1M.txt
+==10835== 
+Jukebox statistics
+==================
+Number of songs in jukebox: 926079
+Number of simulations run: 10000
+Total number of songs played: 11995771
+Average number of plays to get duplicate: 1199
+Most played song: I Had A Dream by My Dad Is Dead, 35 times.
+Least played song: Glitter And Trauma (Single Edit) by Biffy Clyro, 0 times.
+==10835== 
+==10835== HEAP SUMMARY:
+==10835==     in use at exit: 0 bytes in 0 blocks
+==10835==   total heap usage: 34,798,228 allocs, 34,798,228 frees, 967,865,954 bytes allocated
+==10835== 
+==10835== All heap blocks were freed -- no leaks are possible
+==10835== 
+==10835== For counts of detected and suppressed errors, rerun with: -v
+==10835== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+

@@ -1,0 +1,41 @@
+commit dd31ac65d2f70329a2e8672b38d58e05c9592912
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Sun Nov 12 19:43:08 2017 -0500
+
+    Fix runSimulation implementation
+
+commit b56fe82add20609cd41fa7f014dacc2c1b603091
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Sun Nov 12 19:13:19 2017 -0500
+
+    Remove redundant stuffs
+
+commit 90d9681f2bac3692f1c576b968890f5ad83806a6
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Sun Nov 12 16:42:21 2017 -0500
+
+    Finish implementation of jukebox.c
+
+commit 94d14daf466ad99f112e9d6421370ff0b4957853
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Sun Nov 12 12:24:02 2017 -0500
+
+    Implement basic jukebox functions. TODO: implement simulation and statistics
+
+commit 75ca68bb6bac0a726e7c8261126878f6e54bcedb
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Sun Nov 12 04:25:01 2017 -0500
+
+    Add part2 setup
+
+commit 60542a8165ea01e7d281748d433989b9864816cd
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Sun Nov 12 04:16:33 2017 -0500
+
+    Implement hash table
+
+commit 57f44fdb3c9d7a4f59234168cbe5b1d77fba4364
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Fri Nov 10 20:39:25 2017 -0500
+
+    Initial commit
