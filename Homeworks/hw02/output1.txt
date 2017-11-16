@@ -1,0 +1,3 @@
+Total population across 10 zipcodes is 411053.
+The fewest people live in 93544, population 1259.
+The most people live in 90011, population 103892.

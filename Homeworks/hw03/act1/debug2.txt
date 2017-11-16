@@ -1,0 +1,39 @@
+(gdb) run
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /home/stu14/s8/ddp3945/Courses/csci243/Homeworks/hw03/act1/good-life
+
+	..Welcome to the Game of life..
+
+Please enter the initial number of organisms: 123
+
+Breakpoint 2, main () at good-life.c:144
+144					  printf("%s", life[row][col]);
+(gdb) info breakpoints
+Num     Type           Disp Enb Address            What
+2       breakpoint     keep y   0x0000000000400c91 in main at good-life.c:144
+	breakpoint already hit 1 time
+(gdb) display row
+1: row = 0
+(gdb) display col
+2: col = 0
+(gdb) whatis life
+type = char [20][20]
+(gdb) display life[row][col]
+3: life[row][col] = 16 '\020'
+(gdb) continue
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00007ffff7a5bcc0 in _IO_vfprintf_internal (
+    s=0x7ffff7dd2620 <_IO_2_1_stdout_>, format=<optimized out>,
+    ap=ap@entry=0x7fffffffe5f8) at vfprintf.c:1632
+1632	vfprintf.c: No such file or directory.
+(gdb)
+
+Fix 1: The error occurs at line 144 and line 156.
+The incorrect format string is provided to the printf function: life[row][col] is
+of type char but the format string provided is "%s", which is for C-string. This leads
+to a segmentation fault because the program tried to access an invalid memory address
+that has the value of the ascii-code of the character at life[row][col].
+The fix is changing the format string to "%c".

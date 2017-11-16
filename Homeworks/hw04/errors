@@ -1,0 +1,392 @@
+==32541== Memcheck, a memory error detector
+==32541== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==32541== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==32541== Command: ./movietest
+==32541== Parent PID: 32122
+==32541== 
+==32541== Invalid write of size 1
+==32541==    at 0x4C31060: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E3A: movieCopy (movie.c:106)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541==  Address 0x5204f39 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid write of size 1
+==32541==    at 0x4C3106F: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E3A: movieCopy (movie.c:106)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541==  Address 0x5204f40 is 7 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid write of size 1
+==32541==    at 0x4C31060: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E6A: movieCopy (movie.c:109)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541==  Address 0x5204f89 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid write of size 1
+==32541==    at 0x4C3106F: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E6A: movieCopy (movie.c:109)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541==  Address 0x5204f8d is 4 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C30F74: strlen (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400D4C: movieGetTitle (movie.c:79)
+==32541==    by 0x400EEB: movieToString (movie.c:134)
+==32541==    by 0x4009EF: main (movietest.c:83)
+==32541==  Address 0x5204f89 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C31063: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400D73: movieGetTitle (movie.c:80)
+==32541==    by 0x400EEB: movieToString (movie.c:134)
+==32541==    by 0x4009EF: main (movietest.c:83)
+==32541==  Address 0x5204f89 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C30F74: strlen (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400CFC: movieGetDirector (movie.c:71)
+==32541==    by 0x400EFB: movieToString (movie.c:135)
+==32541==    by 0x4009EF: main (movietest.c:83)
+==32541==  Address 0x5204f39 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C31063: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400D22: movieGetDirector (movie.c:72)
+==32541==    by 0x400EFB: movieToString (movie.c:135)
+==32541==    by 0x4009EF: main (movietest.c:83)
+==32541==  Address 0x5204f39 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C30F74: strlen (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400D4C: movieGetTitle (movie.c:79)
+==32541==    by 0x400EEB: movieToString (movie.c:134)
+==32541==    by 0x400A21: main (movietest.c:86)
+==32541==  Address 0x5204f89 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C31063: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400D73: movieGetTitle (movie.c:80)
+==32541==    by 0x400EEB: movieToString (movie.c:134)
+==32541==    by 0x400A21: main (movietest.c:86)
+==32541==  Address 0x5204f89 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C30F74: strlen (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400CFC: movieGetDirector (movie.c:71)
+==32541==    by 0x400EFB: movieToString (movie.c:135)
+==32541==    by 0x400A21: main (movietest.c:86)
+==32541==  Address 0x5204f39 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C31063: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400D22: movieGetDirector (movie.c:72)
+==32541==    by 0x400EFB: movieToString (movie.c:135)
+==32541==    by 0x400A21: main (movietest.c:86)
+==32541==  Address 0x5204f39 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C31063: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E3A: movieCopy (movie.c:106)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541==  Address 0x5204f39 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid write of size 1
+==32541==    at 0x4C31060: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E3A: movieCopy (movie.c:106)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541==  Address 0x5205299 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541== 
+==32541== Invalid write of size 1
+==32541==    at 0x4C3106F: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E3A: movieCopy (movie.c:106)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541==  Address 0x52052a0 is 7 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C31063: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E6A: movieCopy (movie.c:109)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541==  Address 0x5204f89 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid write of size 1
+==32541==    at 0x4C31060: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E6A: movieCopy (movie.c:109)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541==  Address 0x52052e9 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541== 
+==32541== Invalid write of size 1
+==32541==    at 0x4C3106F: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E6A: movieCopy (movie.c:109)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541==  Address 0x52052ed is 4 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C31FB4: strcmp (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400BB3: movieEquals (movie.c:23)
+==32541==    by 0x400A5E: main (movietest.c:92)
+==32541==  Address 0x5204f39 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C31FB7: strcmp (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400BB3: movieEquals (movie.c:23)
+==32541==    by 0x400A5E: main (movietest.c:92)
+==32541==  Address 0x5205299 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C31FB4: strcmp (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400BD2: movieEquals (movie.c:24)
+==32541==    by 0x400A5E: main (movietest.c:92)
+==32541==  Address 0x5204f89 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C31FB7: strcmp (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400BD2: movieEquals (movie.c:24)
+==32541==    by 0x400A5E: main (movietest.c:92)
+==32541==  Address 0x52052e9 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C30F74: strlen (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400D4C: movieGetTitle (movie.c:79)
+==32541==    by 0x400EEB: movieToString (movie.c:134)
+==32541==    by 0x400A6E: main (movietest.c:94)
+==32541==  Address 0x5204f89 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C31063: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400D73: movieGetTitle (movie.c:80)
+==32541==    by 0x400EEB: movieToString (movie.c:134)
+==32541==    by 0x400A6E: main (movietest.c:94)
+==32541==  Address 0x5204f89 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C30F74: strlen (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400CFC: movieGetDirector (movie.c:71)
+==32541==    by 0x400EFB: movieToString (movie.c:135)
+==32541==    by 0x400A6E: main (movietest.c:94)
+==32541==  Address 0x5204f39 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C31063: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400D22: movieGetDirector (movie.c:72)
+==32541==    by 0x400EFB: movieToString (movie.c:135)
+==32541==    by 0x400A6E: main (movietest.c:94)
+==32541==  Address 0x5204f39 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C30F74: strlen (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400D4C: movieGetTitle (movie.c:79)
+==32541==    by 0x400EEB: movieToString (movie.c:134)
+==32541==    by 0x400A7E: main (movietest.c:95)
+==32541==  Address 0x52052e9 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C31063: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400D73: movieGetTitle (movie.c:80)
+==32541==    by 0x400EEB: movieToString (movie.c:134)
+==32541==    by 0x400A7E: main (movietest.c:95)
+==32541==  Address 0x52052e9 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C30F74: strlen (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400CFC: movieGetDirector (movie.c:71)
+==32541==    by 0x400EFB: movieToString (movie.c:135)
+==32541==    by 0x400A7E: main (movietest.c:95)
+==32541==  Address 0x5205299 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541== 
+==32541== Invalid read of size 1
+==32541==    at 0x4C31063: strcpy (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400D22: movieGetDirector (movie.c:72)
+==32541==    by 0x400EFB: movieToString (movie.c:135)
+==32541==    by 0x400A7E: main (movietest.c:95)
+==32541==  Address 0x5205299 is 0 bytes after a block of size 9 alloc'd
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541== 
+==32541== Invalid free() / delete / delete[] / realloc()
+==32541==    at 0x4C2EDEB: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400CA9: movieDelete (movie.c:60)
+==32541==    by 0x400B69: main (movietest.c:117)
+==32541==  Address 0x5204f30 is 0 bytes inside a block of size 9 free'd
+==32541==    at 0x4C2EDEB: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400CA9: movieDelete (movie.c:60)
+==32541==    by 0x400ACC: main (movietest.c:105)
+==32541==  Block was alloc'd at
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E17: movieCopy (movie.c:105)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== Invalid free() / delete / delete[] / realloc()
+==32541==    at 0x4C2EDEB: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400CB9: movieDelete (movie.c:62)
+==32541==    by 0x400B69: main (movietest.c:117)
+==32541==  Address 0x5204f80 is 0 bytes inside a block of size 9 free'd
+==32541==    at 0x4C2EDEB: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400CB9: movieDelete (movie.c:62)
+==32541==    by 0x400ACC: main (movietest.c:105)
+==32541==  Block was alloc'd at
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E44: movieCopy (movie.c:108)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== 
+==32541== HEAP SUMMARY:
+==32541==     in use at exit: 500 bytes in 12 blocks
+==32541==   total heap usage: 60 allocs, 50 frees, 2,282 bytes allocated
+==32541== 
+==32541== 24 bytes in 1 blocks are definitely lost in loss record 1 of 12
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400C06: newMovie (movie.c:41)
+==32541==    by 0x4007C8: main (movietest.c:43)
+==32541== 
+==32541== 24 bytes in 1 blocks are definitely lost in loss record 2 of 12
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400C06: newMovie (movie.c:41)
+==32541==    by 0x400991: main (movietest.c:76)
+==32541== 
+==32541== 24 bytes in 1 blocks are definitely lost in loss record 3 of 12
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E09: movieCopy (movie.c:103)
+==32541==    by 0x4009DF: main (movietest.c:82)
+==32541== 
+==32541== 24 bytes in 1 blocks are definitely lost in loss record 4 of 12
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400E09: movieCopy (movie.c:103)
+==32541==    by 0x400A47: main (movietest.c:91)
+==32541== 
+==32541== 24 bytes in 1 blocks are definitely lost in loss record 5 of 12
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400C06: newMovie (movie.c:41)
+==32541==    by 0x400ADB: main (movietest.c:107)
+==32541== 
+==32541== 45 bytes in 1 blocks are definitely lost in loss record 6 of 12
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400F68: movieToString (movie.c:148)
+==32541==    by 0x400AEB: main (movietest.c:108)
+==32541== 
+==32541== 49 bytes in 1 blocks are definitely lost in loss record 7 of 12
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400F68: movieToString (movie.c:148)
+==32541==    by 0x4009B9: main (movietest.c:79)
+==32541== 
+==32541== 49 bytes in 1 blocks are definitely lost in loss record 8 of 12
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400F68: movieToString (movie.c:148)
+==32541==    by 0x4009EF: main (movietest.c:83)
+==32541== 
+==32541== 49 bytes in 1 blocks are definitely lost in loss record 9 of 12
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400F68: movieToString (movie.c:148)
+==32541==    by 0x400A21: main (movietest.c:86)
+==32541== 
+==32541== 49 bytes in 1 blocks are definitely lost in loss record 10 of 12
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400F68: movieToString (movie.c:148)
+==32541==    by 0x400A6E: main (movietest.c:94)
+==32541== 
+==32541== 64 bytes in 1 blocks are definitely lost in loss record 11 of 12
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400F68: movieToString (movie.c:148)
+==32541==    by 0x400834: main (movietest.c:52)
+==32541== 
+==32541== 75 bytes in 1 blocks are definitely lost in loss record 12 of 12
+==32541==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32541==    by 0x400F68: movieToString (movie.c:148)
+==32541==    by 0x40086D: main (movietest.c:56)
+==32541== 
+==32541== LEAK SUMMARY:
+==32541==    definitely lost: 500 bytes in 12 blocks
+==32541==    indirectly lost: 0 bytes in 0 blocks
+==32541==      possibly lost: 0 bytes in 0 blocks
+==32541==    still reachable: 0 bytes in 0 blocks
+==32541==         suppressed: 0 bytes in 0 blocks
+==32541== 
+==32541== For counts of detected and suppressed errors, rerun with: -v
+==32541== ERROR SUMMARY: 183 errors from 44 contexts (suppressed: 0 from 0)

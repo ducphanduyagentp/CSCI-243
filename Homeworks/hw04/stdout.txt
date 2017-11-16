@@ -1,0 +1,56 @@
+Security log analysis
+Total number of employees:  50
+Number of employees with log entries:  35
+
+Report for employee #105717 hired 2009/09/10:
+	2012/01/03 09:15 ***bad security code***
+	2012/01/03 11:49 Entered room 1042
+	2012/01/03 12:20 Exited room 1042
+	2012/01/03 13:18 Entered room 1095
+
+Report for employee #165717 hired 1999/01/14:
+	2012/01/03 10:13 Entered room 1011
+	2012/01/03 11:25 Exited room 1011
+
+Report for employee #170779 hired 1993/04/07:
+	2012/01/03 10:10 Entered room 1067
+
+Report for employee #205629 hired 1990/06/07:
+	2012/01/03 09:50 Entered room 1045
+	2012/01/03 11:34 Exited room 1045
+	2012/01/03 11:39 ***bad security code***
+	2012/01/03 12:13 Entered room 1066
+	2012/01/03 12:50 Exited room 1066
+
+Report for employee #221540 hired 1984/04/11:
+	2012/01/03 08:34 ***bad security code***
+	2012/01/03 08:47 Entered room 1093
+	2012/01/03 10:32 Exited room 1093
+	2012/01/03 10:51 Entered room 1006
+	2012/01/03 11:54 Exited room 1006
+	2012/01/03 13:31 Entered room 1051
+
+Report for employee #369756 hired 2005/09/26:
+	2012/01/03 08:07 Entered room 1074
+	2012/01/03 08:46 Exited room 1074
+	2012/01/03 10:01 Entered room 1065
+	2012/01/03 12:38 Exited room 1065
+
+Report for employee #389701 hired 1995/09/02:
+	2012/01/03 08:40 Entered room 1076
+	2012/01/03 12:42 Exited room 1076
+	2012/01/03 13:49 Entered room 1080
+
+Report for employee #390904 hired 1998/02/01:
+	2012/01/03 08:00 Entered room 1037
+	2012/01/03 08:46 Exited room 1037
+	2012/01/03 09:34 Entered room 1020
+	2012/01/03 11:10 Exited room 1020
+
+Report for employee #397529 hired 2002/07/27:
+	2012/01/03 08:20 Entered room 1078
+	2012/01/03 08:56 Exited room 1078
+	2012/01/03 10:06 Entered room 1073
+	2012/01/03 12:02 Exited room 1073
+	2012/01/03 12:43 Entered room 1038
+	2012/01/03 12:59 Exited room 1038

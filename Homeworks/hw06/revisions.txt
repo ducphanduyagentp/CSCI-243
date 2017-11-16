@@ -1,0 +1,35 @@
+commit 8e4d16225bbb8b3e800916c26bb0060dc2c1a744
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Sat Oct 28 17:59:19 2017 -0400
+
+    Minor tweaks
+
+commit 3d48e3bec458a6844f56009b043a1978036b1889
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Sat Oct 28 04:28:48 2017 -0400
+
+    Fixed Invalid reads
+
+commit e6a87eba32a1a9df83e3b0b1e0de463bf0df6ce5
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Sat Oct 28 04:15:20 2017 -0400
+
+    Fix memory leak
+
+commit ded7aa7122686cc6426994b8c44879ab2183fc8d
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Sat Oct 28 02:46:09 2017 -0400
+
+    Finish Implemetation of MapADT. TODO: Fix invalid reads/writes and memory leaks
+
+commit 501453ad897eded4f712b24d1811219418fa5694
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Sat Oct 28 02:17:52 2017 -0400
+
+    Implement map_create, map_destroy, map_clear. TODO: replace malloc by calloc for hash table iteration
+
+commit 7742a35d27aeaa62c15da766ae58c589c1bca9bc
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Fri Oct 27 21:01:51 2017 -0400
+
+    Initial commit

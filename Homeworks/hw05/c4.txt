@@ -1,0 +1,7 @@
+rochester,buffalo,corning,syracuse
+buffalo,erie PA,pittsburgh
+pittsburgh,cincinnati
+syracuse,rochester,rome,verona
+rome,utica,herkimer
+erie PA,cleveland
+

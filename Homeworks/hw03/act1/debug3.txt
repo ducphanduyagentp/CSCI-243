@@ -1,0 +1,130 @@
+(gdb) break 144
+Breakpoint 1 at 0x400cd1: file good-life.c, line 144.
+(gdb) run
+Starting program: /home/stu14/s8/ddp3945/Courses/csci243/Homeworks/hw03/act1/good-life
+
+	..Welcome to the Game of life..
+
+Please enter the initial number of organisms: 123
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]);
+(gdb) display row
+1: row = 0
+(gdb) display col
+2: col = 0
+(gdb) display life[row][col]
+3: life[row][col] = 16 '\020'
+(gdb) continue 19
+Will ignore next 18 crossings of breakpoint 1.  Continuing.
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]);
+1: row = 0
+2: col = 19
+3: life[row][col] = -1 '\377'
+(gdb)
+Will ignore next 18 crossings of breakpoint 1.  Continuing.
+ԡ��xu���P���
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]);
+1: row = 1
+2: col = 18
+3: life[row][col] = 0 '\000'
+(gdb)
+Will ignore next 18 crossings of breakpoint 1.  Continuing.
+������
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]);
+1: row = 2
+2: col = 17
+3: life[row][col] = 27 '\033'
+(gdb)
+Will ignore next 18 crossings of breakpoint 1.  Continuing.
+����x������
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]);
+1: row = 3
+2: col = 16
+3: life[row][col] = -1 '\377'
+(gdb)
+Will ignore next 18 crossings of breakpoint 1.  Continuing.
+������
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]);
+1: row = 4
+2: col = 15
+3: life[row][col] = 0 '\000'
+(gdb)
+Will ignore next 18 crossings of breakpoint 1.  Continuing.
+
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]);
+1: row = 5
+2: col = 14
+3: life[row][col] = 64 '@'
+(gdb)
+Will ignore next 18 crossings of breakpoint 1.  Continuing.
+0 `�@
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]);
+1: row = 6
+2: col = 13
+3: life[row][col] = 0 '\000'
+(gdb)
+Will ignore next 18 crossings of breakpoint 1.  Continuing.
+p����
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]);
+1: row = 7
+2: col = 12
+3: life[row][col] = -58 '\306'
+(gdb)
+Will ignore next 18 crossings of breakpoint 1.  Continuing.
+�j���
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]);
+1: row = 8
+2: col = 11
+3: life[row][col] = 0 '\000'
+(gdb)
+Will ignore next 18 crossings of breakpoint 1.  Continuing.
+&�be
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]);
+1: row = 9
+2: col = 10
+3: life[row][col] = 0 '\000'
+(gdb)
+Will ignore next 18 crossings of breakpoint 1.  Continuing.
+ԡ��@����
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]);
+1: row = 10
+2: col = 9
+3: life[row][col] = 0 '\000'
+(gdb)
+Will ignore next 18 crossings of breakpoint 1.  Continuing.
+#����
+
+Breakpoint 1, main () at good-life.c:144
+144					  printf("%c", life[row][col]);
+1: row = 11
+2: col = 8
+3: life[row][col] = 0 '\000'
+(gdb)
+
+Fix 2: The error occurs at line 59, 95, 128 and 136. This error is a wrong assignment operation.
+While the assignment operation is made using a single equal sign, the code uses
+a double equal sign, which is a boolean comparison and assigns nothing to the variables.
+Changing the double equal sign to a single one fixes the error.

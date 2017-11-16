@@ -1,0 +1,23 @@
+commit a8af280783216ce3a9d7dcbb4c75d500f812099b
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Thu Oct 12 19:45:15 2017 -0400
+
+    Finish implementation and add documentation
+
+commit 28a1d9dc1ab431e1663e828e28047795ef6cca39
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Thu Oct 12 16:58:24 2017 -0400
+
+    Implement randomization of grid
+
+commit ea533b4623c82e045c41d9406f99488f6c858078
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Thu Oct 12 16:58:01 2017 -0400
+
+    Implement command lines arguments
+
+commit f524c31eb6153e1dffb659986b88373174bd0553
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Thu Oct 12 16:56:35 2017 -0400
+
+    Initial commit

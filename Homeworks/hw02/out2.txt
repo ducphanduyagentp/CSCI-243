@@ -1,0 +1,3 @@
+Total population across 50 zipcodes is 1668978.
+The fewest people live in 93553, population 2138.
+The most people live in 90650, population 105549.
