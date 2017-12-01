@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 c272621f20ad25dc1c5446d56356621503add11a dphan <ducphanduy.agentp@gmail.com> 1510879177 -0500	commit (initial): Initial commit
+c272621f20ad25dc1c5446d56356621503add11a 19168339c1bb4ebf750d263e99d5ca6f97ee02a4 dphan <ducphanduy.agentp@gmail.com> 1510896118 -0500	commit: Implement packet parser
+19168339c1bb4ebf750d263e99d5ca6f97ee02a4 f8aebf7a1ccb20e016adfcd356b39b78aacbc71b dphan <ducphanduy.agentp@gmail.com> 1510896143 -0500	commit: Define macros and make code more readable
+f8aebf7a1ccb20e016adfcd356b39b78aacbc71b 4d20b9f98e90944ca248dc3a6c7718f9cf031f65 dphan <ducphanduy.agentp@gmail.com> 1510896949 -0500	commit: Handle errors. TODO: Documentation
+4d20b9f98e90944ca248dc3a6c7718f9cf031f65 374ec89e1ae2f54543910707196915a9c2c15c90 dphan <ducphanduy.agentp@gmail.com> 1510898979 -0500	commit: Documentation
