@@ -1,0 +1,39 @@
+#!/bin/sh
+#
+# run one (or a series) of tests of the Fred interpreter
+#
+# invoke with zero or more test numbers:
+# 	./RUN [ n [ ... ] ]
+#
+
+# if there are any command-line arguments, use those;
+# otherwise, run the whole set
+
+if [ $# -gt 0 ]
+then
+	list="$*"
+else
+	list=""
+	n=1
+	while [ -f args.$n ]
+	do
+		list="$list $n"
+		n=`expr $n + 1`
+	done
+fi
+
+for n in $list
+do
+	# see if there is an "args.n" file
+	if [ -f args.$n ]
+	then
+		args="`cat args.$n`"
+	else
+		args=""
+	fi
+
+	# report the test and run it
+	echo "----------------------------"
+	echo Running test ${n}: ./fred $args
+	./fred $args
+done

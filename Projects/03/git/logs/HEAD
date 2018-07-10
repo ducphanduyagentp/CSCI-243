@@ -1,0 +1,23 @@
+0000000000000000000000000000000000000000 8a8d5f4df656e6183f3fb4b7984ff2e214fd06a5 dphan <ducphanduy.agentp@gmail.com> 1512607407 -0500	commit (initial): Initial commit
+8a8d5f4df656e6183f3fb4b7984ff2e214fd06a5 4695c4871de030eb5b67d3b8ce6e1895bd41926a dphan <ducphanduy.agentp@gmail.com> 1512680166 -0500	commit: Add command line arguments processing
+4695c4871de030eb5b67d3b8ce6e1895bd41926a c437ad67361493670d27c9917fae09385f0b0409 dphan <ducphanduy.agentp@gmail.com> 1512798388 -0500	commit: Add symbol table and ultils interface
+c437ad67361493670d27c9917fae09385f0b0409 e2af3651a635b7771d4641ef265bfc61a6c57317 dphan <ducphanduy.agentp@gmail.com> 1512834164 -0500	commit: Add StackADT (CS Department implemetation)
+e2af3651a635b7771d4641ef265bfc61a6c57317 a46b5328286fc2d55a027fc29bdaa9ecae50ce80 dphan <ducphanduy.agentp@gmail.com> 1512838317 -0500	commit: Finish symbol table implementation
+a46b5328286fc2d55a027fc29bdaa9ecae50ce80 e2eedd28a91f3a0643afe89895686e48be6e06e0 dphan <ducphanduy.agentp@gmail.com> 1512841007 -0500	commit: Fix comparator
+e2eedd28a91f3a0643afe89895686e48be6e06e0 846a8b77a3ab83af4f9f2838d3aa1771a96a329c dphan <ducphanduy.agentp@gmail.com> 1512845266 -0500	commit: Implement loadSymTab
+846a8b77a3ab83af4f9f2838d3aa1771a96a329c de41d465bab065b65d2a393fc5be283416126c78 dphan <ducphanduy.agentp@gmail.com> 1512846379 -0500	commit: Fix loadSymTab
+de41d465bab065b65d2a393fc5be283416126c78 a835fe881e220e2015639937070ac76bb4c017ff dphan <ducphanduy.agentp@gmail.com> 1512846897 -0500	commit: Fix loadSymTab - 2
+a835fe881e220e2015639937070ac76bb4c017ff c411aa4ea9d1a3d26cd03c35775ae08fb4be4229 dphan <ducphanduy.agentp@gmail.com> 1512848002 -0500	commit: Implement intepreter
+c411aa4ea9d1a3d26cd03c35775ae08fb4be4229 6b9a8d6e09c6de5398d2f4d900fe79c264a82ceb dphan <ducphanduy.agentp@gmail.com> 1512860052 -0500	commit: Implement processPrt
+6b9a8d6e09c6de5398d2f4d900fe79c264a82ceb a30eaa597831b49f86030eba9c8ba505aa2c4e56 dphan <ducphanduy.agentp@gmail.com> 1512861393 -0500	commit: Implement processDisplay
+a30eaa597831b49f86030eba9c8ba505aa2c4e56 65a5c6fbd52eeafbc9e4ae8030672aa2b9d58d75 dphan <ducphanduy.agentp@gmail.com> 1512861871 -0500	commit: Add tests
+65a5c6fbd52eeafbc9e4ae8030672aa2b9d58d75 d1c514e4fcbf7b997534eaaca4465a1d4cdb735d dphan <ducphanduy.agentp@gmail.com> 1512863641 -0500	commit: Finish processDisplay implementation
+d1c514e4fcbf7b997534eaaca4465a1d4cdb735d 4bf9db71579af28fa9e7abd2c09fde52212979c7 dphan <ducphanduy.agentp@gmail.com> 1512863751 -0500	commit: Fix format string error, prevent exploitation and privilege escalation
+4bf9db71579af28fa9e7abd2c09fde52212979c7 18db1b1d261e4a10068bf8258defe5799129c721 dphan <ducphanduy.agentp@gmail.com> 1512865455 -0500	commit: Add error handling to display and define command
+18db1b1d261e4a10068bf8258defe5799129c721 b07c9405cf5ba4e972df67bd64f0c265e79b4cd5 dphan <ducphanduy.agentp@gmail.com> 1512867486 -0500	commit: Add symbol table resizing
+b07c9405cf5ba4e972df67bd64f0c265e79b4cd5 7e16bd60213a39788e12030c6ff72a1b29f75ea6 dphan <ducphanduy.agentp@gmail.com> 1512877306 -0500	commit: Implement expression evaluation
+7e16bd60213a39788e12030c6ff72a1b29f75ea6 790eb994d53dfefe20b56ff29c0fd5ec3b785c89 dphan <ducphanduy.agentp@gmail.com> 1512879569 -0500	commit: Add processIf (include recursive processing)
+790eb994d53dfefe20b56ff29c0fd5ec3b785c89 7317b90927c5a52c00767d12a3086e4afc134a14 dphan <ducphanduy.agentp@gmail.com> 1512879707 -0500	commit: Add tests
+7317b90927c5a52c00767d12a3086e4afc134a14 6f4ecc8a98a0027172e0fd3cf20db272cbf65a81 dphan <ducphanduy.agentp@gmail.com> 1512880184 -0500	commit: Add unknown statement handlers
+6f4ecc8a98a0027172e0fd3cf20db272cbf65a81 ec09030f45f7ee5bc5bedb0a6ba3a8fb98e193c0 dphan <ducphanduy.agentp@gmail.com> 1512880873 -0500	commit: Fix expression error handler
+ec09030f45f7ee5bc5bedb0a6ba3a8fb98e193c0 c36584f67ac7af6463711fbe40fdc3abdfe03a2b dphan <ducphanduy.agentp@gmail.com> 1512927825 -0500	commit: Fix postfix conversion: DO NOT FUCKING POP '(' WHEN YOU HAVEN'T FUCKING GOT ')'

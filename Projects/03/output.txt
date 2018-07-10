@@ -1,0 +1,26 @@
+
+> ::: define a
+
+> ::: define integer a
+
+> ::: define integer a
+
+> ::: define real a
+
+> ::: display f a c
+ 0
+> ::: display a a
+ 0 0
+> ::: 
+
+> ::: display a,a
+ 0 0
+> ::: display b
+
+> ::: display b,c,b,a,b,b
+ 0
+> 
+Symbol Table Contents
+Name    Type    Value
+=====================
+a       integer 0

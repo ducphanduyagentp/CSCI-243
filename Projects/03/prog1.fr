@@ -1,0 +1,2 @@
+define integer alpha, beta
+let alpha := 42

@@ -1,0 +1,65 @@
+commit cb91546f75a548fc31ecbf8f7c8d5e377f92c866
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Thu Nov 30 17:30:07 2017 -0500
+
+    Fix coding practice
+
+commit e31c63516f889353bd37da79edf5b18fb059f50e
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Thu Nov 30 17:11:56 2017 -0500
+
+    Fix display
+
+commit e40508909daa7f83cd997512f194625f564c8bf5
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Thu Nov 30 16:34:34 2017 -0500
+
+    Fix display
+
+commit 21d80de71d921f778b120fe334ababfdab90e541
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Thu Nov 30 15:54:55 2017 -0500
+
+    Fix indentation
+
+commit 06653c8c30afeb091b51f267efac8260675aa2a0
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Thu Nov 30 15:42:40 2017 -0500
+
+    Fix flat tire handler
+
+commit 0734363e94adc2e506ef65d7110e6cc85d910d21
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Thu Nov 30 15:36:41 2017 -0500
+
+    Fix floating point exception
+
+commit ef759c741ea02054323d9d88fa4a7c85835e6256
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Thu Nov 30 15:25:19 2017 -0500
+
+    Fix usage message
+
+commit 36693ac8693dd4271051f420fec623bcd525d56d
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Thu Nov 30 15:23:21 2017 -0500
+
+    Finish thread implementation
+
+commit 5fda9415f99c6fc424ee853bdf0ba031f1f2fdaf
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Thu Nov 30 14:27:32 2017 -0500
+
+    Finish implementation of racers create and destroy
+
+commit bb77b8f9f26fbe333017c887521c41b2dbe710e5
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Thu Nov 30 14:11:15 2017 -0500
+
+    Finish main program implementation
+
+commit 951de8fa38be27c95bf90293c60b88db68ebfacc
+Author: dphan <ducphanduy.agentp@gmail.com>
+Date:   Tue Nov 28 15:46:19 2017 -0500
+
+    Initial commit

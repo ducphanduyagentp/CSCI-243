@@ -1,0 +1,3 @@
+ prt "a\tb\nc\\d  e"   
+    prt                       "aaa\tbbb\tccc`''"    
+   display a, b ,  c, z, y , x, round1, round2,qwertyu, -10.5, 11.5, 11.51, 12.30

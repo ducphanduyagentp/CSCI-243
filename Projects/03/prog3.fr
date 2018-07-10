@@ -1,0 +1,13 @@
+display -3
+define integer a
+let a := 2
+define integer b
+let b := 3 - a
+prt "wait what\t?"
+if a = 2 then prt "yes"
+display b
+if b = 2 then prt "yes"
+display b
+if b = 1 then let b := 0
+display b
+prt "hello\n"
