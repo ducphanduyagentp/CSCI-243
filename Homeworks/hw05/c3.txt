@@ -1,3 +1,0 @@
-rochester,buffalo
-
-syracuse,rochester
